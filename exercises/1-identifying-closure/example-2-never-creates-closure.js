@@ -12,7 +12,7 @@ const doesItClose = (func, arg) => {
 }
 
 const never = (x) => {
-  return x;
+  return console.log(x);
 }
 
 const whenPassed4 = doesItClose(never, 4);
